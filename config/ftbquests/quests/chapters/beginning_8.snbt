@@ -1,0 +1,137 @@
+{
+	id: "00D111774D9ABCE5"
+	group: "52E4E14123BEBA38"
+	order_index: 0
+	filename: "beginning_8"
+	title: "Beginning 8"
+	icon: "minecraft:snow_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["333B698BCCDF4A6B"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3CC816F9ED6E2266"
+			tasks: [{
+				id: "680131E0F5948DA5"
+				type: "item"
+				item: "minecraft:snowball"
+				count: 8L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["3CC816F9ED6E2266"]
+			hide: true
+			hide_text_until_complete: true
+			id: "30C7371B0D5F72B4"
+			tasks: [{
+				id: "23D88E741C90D626"
+				type: "item"
+				item: "minecraft:snow_block"
+				count: 2L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["30C7371B0D5F72B4"]
+			hide: true
+			hide_text_until_complete: true
+			id: "45390AA9354EC78A"
+			tasks: [{
+				id: "6B15F9399580DDCB"
+				type: "item"
+				item: "skyseltweaks:mini_freezer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["45390AA9354EC78A"]
+			id: "38F9071038F85F97"
+			tasks: [{
+				id: "22ED4B43ADB72D7A"
+				type: "item"
+				item: "skyseltweaks:heavy_snowball"
+				count: 4L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["45390AA9354EC78A"]
+			hide: true
+			hide_text_until_complete: true
+			id: "1F2A572AB0DE0FBC"
+			tasks: [{
+				id: "25516FFB72654E24"
+				type: "item"
+				item: "skyseltweaks:boney_gunpowder"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			dependencies: ["1F2A572AB0DE0FBC"]
+			hide: true
+			hide_text_until_complete: true
+			id: "778240D90FB46575"
+			tasks: [{
+				id: "7967EF90F28EB29E"
+				type: "item"
+				item: "minecraft:spruce_sapling"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["38F9071038F85F97"]
+			hide: true
+			hide_text_until_complete: true
+			id: "4EC61347428132B3"
+			tasks: [{
+				id: "7977A515E04577AE"
+				type: "item"
+				item: "skyseltweaks:heavy_snow"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["4EC61347428132B3"]
+			hide: true
+			hide_text_until_complete: true
+			id: "07EE6633DEA32C93"
+			tasks: [{
+				id: "598DD8C3F85D3DA5"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			dependencies: [
+				"07EE6633DEA32C93"
+				"778240D90FB46575"
+			]
+			id: "2B3217BEE930E24E"
+			tasks: [{
+				id: "4B55B6A26D5A4685"
+				type: "checkmark"
+				title: "Gotcha"
+			}]
+			rewards: [{
+				id: "540347617DE2636D"
+				type: "item"
+				item: "contenttweaker:unlock_normal"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

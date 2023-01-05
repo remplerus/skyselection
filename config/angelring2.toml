@@ -1,0 +1,40 @@
+
+#General Angel Ring 2 configuration options.
+[general]
+	#Define how much FE the Energetic Angel Ring will drain every tick while flying.
+	#Range: > 1
+	EnergeticFEPerTick = 75
+	#Define how much FE the Leadstone Angel Ring can store.
+	#Range: > 1
+	LeadstoneFECapacity = 500000
+	#Define how much FE the Hardened Angel Ring can store.
+	#Range: > 1
+	HardenedFECapacity = 5000000
+	#Define how much FE the Energetic Angel Ring can store.
+	#Range: > 1
+	EnergeticFECapacity = 2000000
+	#Define how much FE the Reinforced Angel Ring will drain every tick while flying.
+	#Range: > 1
+	ReinforcedFEPerTick = 25
+	#Define how much XP will be drained from player when flying by wearing classic Angel Ring? Put 0 if you need to disable XP requirement for flight.
+	#Range: > 0
+	XPCost = 2
+	#Define how much FE the Resonant Angel Ring can store.
+	#Range: > 1
+	ResonantFECapacity = 32000000
+	#Define how much FE the Leadstone Angel Ring will drain every tick while flying.
+	#Range: > 1
+	LeadstoneFEPerTick = 200
+	#Define how much FE the Resonant Angel Ring will drain every tick while flying.
+	#Range: > 1
+	ResonantFEPerTick = 5
+	#Define how much ticks is required to pass between each XP drain event of classic Angel Ring?
+	#Range: > 1
+	TicksPerDrain = 100
+	#Define how much FE the Hardened Angel Ring will drain every tick while flying.
+	#Range: > 1
+	HardenedFEPerTick = 125
+	#Define how much FE the Reinforced Angel Ring can store.
+	#Range: > 1
+	ReinforcedFECapacity = 8000000
+

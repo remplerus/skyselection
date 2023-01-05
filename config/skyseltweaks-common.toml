@@ -1,0 +1,48 @@
+
+["Knife Configs"]
+
+	["Knife Configs".Durability]
+		#Cactus Knife
+		#Range: > 0
+		cactus_knife = 3
+		#Wooden Knife
+		#Range: > 0
+		wooden_knife = 6
+		#Stone Knife
+		#Range: > 0
+		stone_knife = 12
+		#Iron Knife
+		#Range: > 0
+		iron_knife = 18
+		#Golden Knife
+		#Range: > 0
+		gold_knife = 12
+		#Diamond Knife
+		#Range: > 0
+		diamond_knife = 36
+		#Emerald Knife
+		#Range: > 0
+		emerald_knife = 54
+		#Netherite Knife
+		#Range: > 0
+		netherite_knife = 108
+
+["Infusion Stone Configs"]
+
+	["Infusion Stone Configs".Durability]
+		#Infusion Stone
+		#Range: > 0
+		infusion_stone = 96
+		#Red Infusion Stone
+		#Range: > 0
+		red_infusion_stone = 96
+
+[Snowball]
+
+	[Snowball.Damage]
+		#Damage of Heavy Snowballs
+		#Range: 0.0 ~ 3.4028234663852886E38
+		heavy_snowball_damage = 7.0
+		#Should heavy snowballs hurt players?
+		hurt_players = false
+

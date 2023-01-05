@@ -1,0 +1,77 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+de.melanx.skyblockbuilder.client.ScreenCustomizeSkyblock {
+}
+
+net.minecraft.client.gui.screens.LanguageSelectScreen {
+}
+
+net.minecraftforge.client.gui.ModListScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.MouseSettingsScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+net.minecraft.client.gui.screens.VideoSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.SoundOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.SkinCustomizationScreen {
+}
+
+net.minecraft.client.gui.screens.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}
+
+net.minecraft.client.gui.screens.GenericDirtMessageScreen {
+}
+
+net.minecraft.client.gui.screens.ProgressScreen {
+}
+
+net.minecraft.client.gui.screens.achievement.StatsScreen {
+}
+
+net.minecraft.client.gui.screens.ReceivingLevelScreen {
+}
+
+net.minecraft.client.gui.screens.ConnectScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.EditServerScreen {
+}
+
+net.minecraft.client.gui.screens.DirectJoinServerScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmScreen {
+}
+
+net.minecraft.client.gui.screens.DisconnectedScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+

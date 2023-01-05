@@ -1,0 +1,24 @@
+{
+	id: "06676F39EBF2B1DA"
+	group: "532A4660DB96F160"
+	order_index: 0
+	filename: "beginning_1"
+	title: "Beginning 1"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.0d
+		y: -0.5d
+		dependencies: ["2AF7F554DB5A9454"]
+		hide: true
+		hide_text_until_complete: true
+		id: "4ADE18989E6D0416"
+		tasks: [{
+			id: "6AABA592C149A6C4"
+			type: "checkmark"
+			title: "Normal Stage"
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,0 +1,8 @@
+{
+	"type": "ftbdripper:drip",
+	"inputBlock": "contenttweaker:finite_lava_cobble",
+	"inputItem": "contenttweaker:finite_lava_cobble",
+	"outputBlock": "minecraft:obsidian",
+	"outputItem": "minecraft:obsidian",
+	"chance": 0.8
+}

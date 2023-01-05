@@ -1,0 +1,8 @@
+{
+	"type": "ftbdripper:drip",
+	"inputBlock": "compressium:cobblestone_3",
+	"inputItem": "compressium:cobblestone_3",
+	"outputBlock": "compressium:cobblestone_4",
+	"outputItem": "compressium:cobblestone_4",
+	"chance": 0.001
+}

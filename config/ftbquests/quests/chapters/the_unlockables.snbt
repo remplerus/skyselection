@@ -1,0 +1,647 @@
+{
+	id: "1ACFC8D47D35747F"
+	group: ""
+	order_index: 1
+	filename: "the_unlockables"
+	title: "The Unlockables"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -11.5d
+			y: -9.5d
+			width: 7.5d
+			height: 8.5d
+			rotation: 0.0d
+			image: "skyselection:textures/gui/border.png"
+			hover: ["Storage + Transport"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: -9.5d
+			width: 7.5d
+			height: 8.5d
+			rotation: 0.0d
+			image: "skyselection:textures/gui/border.png"
+			hover: ["Dimensions and Dimensional Work"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: -11.0d
+			width: 7.5d
+			height: 5.0d
+			rotation: 0.0d
+			image: "skyselection:textures/gui/border.png"
+			hover: ["Magical"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -13.0d
+			y: 0.5d
+			width: 7.5d
+			height: 6.0d
+			rotation: 0.0d
+			image: "skyselection:textures/gui/border.png"
+			hover: ["Machinery"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			width: 7.5d
+			height: 5.0d
+			rotation: 0.0d
+			image: "skyselection:textures/gui/border.png"
+			hover: ["Mob Automation"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			width: 8.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "skyselection:textures/gui/border.png"
+			hover: ["Power"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -13.0d
+			y: -11.5d
+			incompatible: ["7372D83041B63805"]
+			id: "73B124A79C3A293F"
+			tasks: [{
+				id: "2BB3C4DD4A2493D9"
+				type: "checkmark"
+				title: "Applied Energistics"
+			}]
+			rewards: [{
+				id: "602C23D86787249C"
+				type: "item"
+				item: "contenttweaker:unlock_ae2"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -11.5d
+			incompatible: ["73B124A79C3A293F"]
+			id: "7372D83041B63805"
+			tasks: [{
+				id: "289B47527A5BAE4C"
+				type: "checkmark"
+				title: "Refined Storage"
+			}]
+			rewards: [{
+				id: "424F451DE7E7CD43"
+				type: "item"
+				item: "contenttweaker:unlock_rs"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			description: [
+				"Here you can select wheater you want to have one or another mod."
+				""
+				"&cBut BEWARE: &fif you select one mod, you'll never get the chance to get the other mod. (Not yet)"
+			]
+			size: 2.0d
+			id: "4E66F26E61B0C957"
+			tasks: [{
+				id: "57CCB0D24EFDF7B4"
+				type: "checkmark"
+				title: "Choose your own adventure"
+			}]
+		}
+		{
+			title: "EC Mining Dimension"
+			x: 5.0d
+			y: -11.5d
+			incompatible: [
+				"14AA744530578038"
+				"2AEE893AA5A83847"
+			]
+			id: "6D3D9A21ED045259"
+			tasks: [{
+				id: "1787285C2304F534"
+				type: "checkmark"
+				title: "Unlock EC Mining World"
+			}]
+			rewards: [{
+				id: "1C0AB230ACFE4325"
+				type: "item"
+				item: "contenttweaker:unlock_ec"
+			}]
+		}
+		{
+			title: "JAMD (Just another mining dimension)"
+			x: 6.5d
+			y: -11.5d
+			incompatible: [
+				"6D3D9A21ED045259"
+				"2AEE893AA5A83847"
+			]
+			id: "14AA744530578038"
+			tasks: [{
+				id: "7598EA086E0DA2D6"
+				type: "checkmark"
+				title: "Unlock JetAnotherMiningDimension"
+			}]
+			rewards: [{
+				id: "7F545C3D7661F089"
+				type: "item"
+				item: "contenttweaker:unlock_jamd"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -11.5d
+			incompatible: [
+				"6D3D9A21ED045259"
+				"14AA744530578038"
+			]
+			id: "2AEE893AA5A83847"
+			tasks: [{
+				id: "7CC2B156775E331B"
+				type: "checkmark"
+				title: "Oceanworld"
+			}]
+			rewards: [{
+				id: "4AAC4B422FDADC50"
+				type: "item"
+				item: "contenttweaker:unlock_oceanworld"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.5d
+			incompatible: ["7E76BEEF441EFADE"]
+			id: "326DF046AC13E9E4"
+			tasks: [{
+				id: "7298FE7878964A99"
+				type: "checkmark"
+				title: "Undergarden"
+			}]
+			rewards: [{
+				id: "707DBE803704ADB8"
+				type: "item"
+				item: "contenttweaker:unlock_undergarden"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -9.5d
+			incompatible: ["326DF046AC13E9E4"]
+			id: "7E76BEEF441EFADE"
+			tasks: [{
+				id: "7BAA2F852D100328"
+				type: "checkmark"
+				title: "Twilight Forest"
+			}]
+			rewards: [{
+				id: "04727575A13C4EBF"
+				type: "item"
+				item: "contenttweaker:unlock_twilight"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -9.5d
+			incompatible: ["3FFF476480F65CB3"]
+			id: "5662E024C51BB059"
+			tasks: [{
+				id: "70FE697186BFFFB4"
+				type: "checkmark"
+				title: "Pipez"
+			}]
+			rewards: [{
+				id: "5CBFBC664401BABF"
+				type: "item"
+				item: "contenttweaker:unlock_pipez"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -9.5d
+			incompatible: ["5662E024C51BB059"]
+			id: "3FFF476480F65CB3"
+			tasks: [{
+				id: "7D5D6300A4892075"
+				type: "checkmark"
+				title: "Xnet"
+			}]
+			rewards: [{
+				id: "1E9F4A0B39C443F6"
+				type: "item"
+				item: "contenttweaker:unlock_xnet"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			incompatible: ["7066BFB3436FD93E"]
+			id: "0754A77130478718"
+			tasks: [{
+				id: "048CA9FADDD570CB"
+				type: "checkmark"
+				title: "Enderquarry"
+			}]
+			rewards: [{
+				id: "32B636F596B0AAA4"
+				type: "item"
+				item: "contenttweaker:unlock_enderquarry"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -7.5d
+			incompatible: ["0754A77130478718"]
+			id: "7066BFB3436FD93E"
+			tasks: [{
+				id: "02CB6553CBE42896"
+				type: "checkmark"
+				title: "RFTools Builder"
+			}]
+			rewards: [{
+				id: "49D2830DBCCC6C08"
+				type: "item"
+				item: "contenttweaker:unlock_rftoolsbuilder"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -0.5d
+			incompatible: [
+				"0E1C6A77BE405456"
+				"04A93015D1CEB357"
+				"3E83C8A89C7A0456"
+				"66A7D0C4EAA73616"
+				"767BFF9AD64082E2"
+			]
+			id: "7D4B9708A0E339AC"
+			tasks: [{
+				id: "6B45958C20E5EEC5"
+				type: "checkmark"
+				title: "Factorium"
+			}]
+			rewards: [{
+				id: "519041CE3CA40E52"
+				type: "item"
+				item: "contenttweaker:unlock_factorium"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -0.5d
+			incompatible: [
+				"7D4B9708A0E339AC"
+				"66A7D0C4EAA73616"
+				"767BFF9AD64082E2"
+				"3E83C8A89C7A0456"
+				"04A93015D1CEB357"
+			]
+			id: "0E1C6A77BE405456"
+			tasks: [{
+				id: "402F88A954FDCED3"
+				type: "checkmark"
+				title: "FTBIC"
+			}]
+			rewards: [{
+				id: "1C461ED38D227672"
+				type: "item"
+				item: "contenttweaker:unlock_ftbic"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -0.5d
+			incompatible: [
+				"66A7D0C4EAA73616"
+				"767BFF9AD64082E2"
+				"3E83C8A89C7A0456"
+				"7D4B9708A0E339AC"
+				"0E1C6A77BE405456"
+			]
+			id: "04A93015D1CEB357"
+			tasks: [{
+				id: "3D37EC7F27B9A59B"
+				type: "checkmark"
+				title: "Immersive Engineering"
+			}]
+			rewards: [{
+				id: "1BEC35E892BC10EB"
+				type: "item"
+				item: "contenttweaker:unlock_ie"
+			}]
+		}
+		{
+			x: -14.5d
+			y: 1.5d
+			incompatible: [
+				"04A93015D1CEB357"
+				"66A7D0C4EAA73616"
+				"767BFF9AD64082E2"
+				"0E1C6A77BE405456"
+				"7D4B9708A0E339AC"
+			]
+			id: "3E83C8A89C7A0456"
+			tasks: [{
+				id: "7680F0F6A938B7D4"
+				type: "checkmark"
+				title: "Industrial Foregoing"
+			}]
+			rewards: [{
+				id: "028FB524944CF4FB"
+				type: "item"
+				item: "contenttweaker:unlock_if"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.5d
+			incompatible: [
+				"66A7D0C4EAA73616"
+				"3E83C8A89C7A0456"
+				"04A93015D1CEB357"
+				"7D4B9708A0E339AC"
+				"0E1C6A77BE405456"
+			]
+			id: "767BFF9AD64082E2"
+			tasks: [{
+				id: "42F452967BE26ADB"
+				type: "checkmark"
+				title: "Mekanism"
+			}]
+			rewards: [{
+				id: "7F5FA39151260C23"
+				type: "item"
+				item: "contenttweaker:unlock_mekanism"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.5d
+			incompatible: [
+				"767BFF9AD64082E2"
+				"3E83C8A89C7A0456"
+				"04A93015D1CEB357"
+				"0E1C6A77BE405456"
+				"7D4B9708A0E339AC"
+			]
+			id: "66A7D0C4EAA73616"
+			tasks: [{
+				id: "321BD80C79D9AA5A"
+				type: "checkmark"
+				title: "Thermal"
+			}]
+			rewards: [{
+				id: "77C831C1089360B5"
+				type: "item"
+				item: "contenttweaker:unlock_thermal"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -11.0d
+			incompatible: ["27BCCA9B2338AD86"]
+			id: "596F94A50AD9DDC9"
+			tasks: [{
+				id: "2B78D77540A7DC26"
+				type: "checkmark"
+				title: "Botania"
+			}]
+			rewards: [{
+				id: "6049E5A8987142C4"
+				type: "item"
+				item: "contenttweaker:unlock_botania"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -11.0d
+			incompatible: ["596F94A50AD9DDC9"]
+			id: "27BCCA9B2338AD86"
+			tasks: [{
+				id: "0496BBD9E75EB62B"
+				type: "checkmark"
+				title: "Solarforge"
+			}]
+			rewards: [{
+				id: "6F27D07AD341EB48"
+				type: "item"
+				item: "contenttweaker:unlock_solarforge"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -7.5d
+			incompatible: ["38F9923654CE8CEB"]
+			id: "0195ABA875EEC913"
+			tasks: [{
+				id: "7C2AF0DD5817324E"
+				type: "checkmark"
+				title: "Ender Storage + Flux Network"
+			}]
+			rewards: [{
+				id: "5E8F06F06108ECD8"
+				type: "item"
+				item: "contenttweaker:unlock_enderflux"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -7.5d
+			incompatible: ["0195ABA875EEC913"]
+			id: "38F9923654CE8CEB"
+			tasks: [{
+				id: "5C5B543D85BE5B75"
+				type: "checkmark"
+				title: "Tesseract"
+			}]
+			rewards: [{
+				id: "48154457DBB21CF5"
+				type: "item"
+				item: "contenttweaker:unlock_tesseract"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			incompatible: [
+				"246CD41073470759"
+				"45E4A1085CBFB2CC"
+			]
+			id: "54A257BB11C473EF"
+			tasks: [{
+				id: "66F7457280B3F738"
+				type: "checkmark"
+				title: "Caged Mobs"
+			}]
+			rewards: [{
+				id: "677DB540691FD1F2"
+				type: "item"
+				item: "contenttweaker:unlock_caged"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			incompatible: [
+				"54A257BB11C473EF"
+				"45E4A1085CBFB2CC"
+			]
+			id: "246CD41073470759"
+			tasks: [{
+				id: "7BD6FE6BDD87EABF"
+				type: "checkmark"
+				title: "Deep Mob Learning"
+			}]
+			rewards: [{
+				id: "56B61224C00D8DDA"
+				type: "item"
+				item: "contenttweaker:unlock_dml"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			incompatible: [
+				"54A257BB11C473EF"
+				"246CD41073470759"
+			]
+			id: "45E4A1085CBFB2CC"
+			tasks: [{
+				id: "4520FFFD4DA5A5B9"
+				type: "checkmark"
+				title: "Mob Grinding Utils"
+			}]
+			rewards: [{
+				id: "56D4644F299F3262"
+				type: "item"
+				item: "contenttweaker:unlock_mobgrind"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			incompatible: [
+				"50F3213F6765F145"
+				"28967C53F749EF22"
+				"1B2E0951D6379F56"
+				"0CA54530B52B49AB"
+			]
+			id: "4ED44051CFC0BE6D"
+			tasks: [{
+				id: "685B0358C607758B"
+				type: "checkmark"
+				title: "Extreme Reactors"
+			}]
+			rewards: [{
+				id: "21BF68AC46FDD2D8"
+				type: "item"
+				item: "contenttweaker:unlock_extremereactors"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			incompatible: [
+				"4ED44051CFC0BE6D"
+				"0CA54530B52B49AB"
+				"1B2E0951D6379F56"
+				"28967C53F749EF22"
+			]
+			id: "50F3213F6765F145"
+			tasks: [{
+				id: "5337CC4728A40EE1"
+				type: "checkmark"
+				title: "Mekanism Generators"
+			}]
+			rewards: [{
+				id: "50089483BFCBB48E"
+				type: "item"
+				item: "contenttweaker:unlock_mekanismgens"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			incompatible: [
+				"4ED44051CFC0BE6D"
+				"50F3213F6765F145"
+				"1B2E0951D6379F56"
+				"28967C53F749EF22"
+			]
+			id: "0CA54530B52B49AB"
+			tasks: [{
+				id: "26BB29DD3ADE8D58"
+				type: "checkmark"
+				title: "Powah"
+			}]
+			rewards: [{
+				id: "43E423A4962F7302"
+				type: "item"
+				item: "contenttweaker:unlock_powah"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			incompatible: [
+				"4ED44051CFC0BE6D"
+				"50F3213F6765F145"
+				"0CA54530B52B49AB"
+				"28967C53F749EF22"
+			]
+			id: "1B2E0951D6379F56"
+			tasks: [{
+				id: "100BCFB801ECF329"
+				type: "checkmark"
+				title: "RFTools Power"
+			}]
+			rewards: [{
+				id: "686BB2441F06551F"
+				type: "item"
+				item: "contenttweaker:unlock_rftoolspower"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			incompatible: [
+				"1B2E0951D6379F56"
+				"0CA54530B52B49AB"
+				"50F3213F6765F145"
+				"4ED44051CFC0BE6D"
+			]
+			id: "28967C53F749EF22"
+			tasks: [{
+				id: "49B7160DBA227F99"
+				type: "checkmark"
+				title: "Solar Flux Reborn"
+			}]
+			rewards: [{
+				id: "32B765B88B02FE0B"
+				type: "item"
+				item: "contenttweaker:unlock_solarflux"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

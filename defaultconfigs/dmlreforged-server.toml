@@ -1,0 +1,73 @@
+
+#Balance the game mechanics
+[balancing]
+	#Range: 1 ~ 100
+	killMultiplierTier0 = 1
+	#Range: 1 ~ 100
+	killMultiplierTier1 = 4
+	#Range: 1 ~ 100
+	killMultiplierTier2 = 10
+	#Range: 1 ~ 100
+	killMultiplierTier3 = 18
+	#Range: 1 ~ 500
+	killsToTier1 = 6
+	#Range: 1 ~ 500
+	killsToTier2 = 12
+	#Range: 1 ~ 500
+	killsToTier3 = 30
+	#Range: 1 ~ 500
+	killsToTier4 = 50
+	#Range: 1 ~ 100
+	tier1 = 5
+	#Range: 1 ~ 100
+	tier2 = 11
+	#Range: 1 ~ 100
+	tier3 = 24
+	#Range: 1 ~ 100
+	tier4 = 42
+	isGlitchArmorCreativeFlightEnabled = true
+	isGlitchArmorExtraDropsEnabled = true
+	#Not advised to make false. Datapack for diffrent recipes must be written in order for mod to work correctly
+	sootedRedstoneCraftingEnabled = true
+
+#Data Model cost (FE/t)
+[data_model]
+	#Range: 1 ~ 6666
+	blazeCost = 256
+	#Range: 1 ~ 6666
+	creeperCost = 80
+	#Range: 1 ~ 6666
+	dragonCost = 4096
+	#Range: 1 ~ 6666
+	endermanCost = 512
+	#Range: 1 ~ 6666
+	ghastCost = 372
+	#Range: 1 ~ 6666
+	guardianCost = 340
+	#Range: 1 ~ 6666
+	shulkerCost = 512
+	#Range: 1 ~ 6666
+	skeletonCost = 80
+	#Range: 1 ~ 6666
+	slimeCost = 150
+	#Range: 1 ~ 6666
+	spiderCost = 80
+	#Range: 1 ~ 6666
+	witchCost = 120
+	#Range: 1 ~ 6666
+	witherCost = 2048
+	#Range: 1 ~ 6666
+	witherSkeletonCost = 880
+	#Balance the energy cost of the Loot Fabricator (FE/t)
+	#Range: 1 ~ 18000
+	lootFabricatorCost = 256
+
+#Balance the EXP received from using Living Matter Item
+[living_matter]
+	#Range: 0 ~ 999
+	livingOverworldian = 10
+	#Range: 0 ~ 999
+	livingHellish = 14
+	#Range: 0 ~ 999
+	livingExtraterrestrial = 20
+

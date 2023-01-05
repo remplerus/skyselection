@@ -1,0 +1,11 @@
+{
+	id: "0B9C42047B1E93FD"
+	group: "4124C594E974B68F"
+	order_index: 0
+	filename: "the_beginning_of_the_end"
+	title: "The Beginning of the End"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,69 @@
+
+["Beyond Planets Core - Venus Ore Config"]
+
+	["Beyond Planets Core - Venus Ore Config"."Beyond Planets Core - Venus Copper Ore Config"]
+		#Should Venus Copper Ore Height Top.
+		#Default = 32 (number)
+		"Venus Copper Ore Height Top" = 32
+		#Should Venus Copper Ore Height Bottom.
+		#Default = -32 (number)
+		"Venus Copper Ore Height Bottom" = -32
+		#Should Venus Copper Ore Vein Size.
+		#Default = 8 (number)
+		"Venus Copper Ore Vein Size" = 8
+
+	["Beyond Planets Core - Venus Ore Config"."Beyond Planets Core - Venus Lead Ore Config"]
+		#Should Venus Lead Height Top.
+		#Default = 56 (number)
+		"Venus Lead Ore Height Top" = 56
+		#Should Venus Lead Height Bottom.
+		#Default = -34 (number)
+		"Venus Lead Ore Height Bottom" = -24
+		#Should Venus Lead Ore Vein Size.
+		#Default = 8 (number)
+		"Venus Lead Ore Vein Size" = 10
+
+	["Beyond Planets Core - Venus Ore Config"."Beyond Planets Core - Venus Tin Ore Config"]
+		#Should Venus Tin Height Top.
+		#Default = 80 (number)
+		"Venus Tin Ore Height Top" = 80
+		#Should Venus Tin Ore Height Bottom.
+		#Default = -80 (number)
+		"Venus Tin Ore Height Bottom" = -80
+		#Should Venus Tin Ore Vein Size.
+		#Default = 8 (number)
+		"Venus Tin Ore Vein Size" = 7
+
+	["Beyond Planets Core - Venus Ore Config"."Beyond Planets Core - Venus Uranium Ore Config"]
+		#Should Venus Uranium Height Top.
+		#Default = 80 (number)
+		"Venus Uranium Ore Height Top" = 80
+		#Should Venus Uranium Ore Height Bottom.
+		#Default = -80 (number)
+		"Venus Uranium Ore Height Bottom" = -80
+		#Should Venus Uranium Ore Vein Size.
+		#Default = 8 (number)
+		"Venus Uranium Ore Vein Size" = 6
+
+	["Beyond Planets Core - Venus Ore Config"."Beyond Planets Core - Venus Zinc Ore Config"]
+		#Should Venus Zinc Ore spawn.
+		#Default = 80 (number)
+		"Venus Zinc Ore Height Top" = 80
+		#Should Venus Zinc Ore Height Bottom.
+		#Default = -80 (number)
+		"Venus Zinc Ore Height Bottom" = -80
+		#Should Venus Zinc Ore Vein Size.
+		#Default = 8 (number)
+		"Venus Zinc Ore Vein Size" = 6
+
+	["Beyond Planets Core - Venus Ore Config"."Beyond Planets Core - Venus Cobalt Ore Config"]
+		#Should Venus Cobalt Ore spawn.
+		#Default = 80 (number)
+		"Venus Cobalt Ore Height Top" = 80
+		#Should Venus Cobalt Ore Height Bottom.
+		#Default = -80 (number)
+		"Venus Cobalt Ore Height Bottom" = -80
+		#Should Venus Cobalt Ore Vein Size.
+		#Default = 8 (number)
+		"Venus Cobalt Ore Vein Size" = 6
+

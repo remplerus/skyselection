@@ -1,0 +1,160 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.worldselection.CreateWorldScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/custompics/loading.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=3451511%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345185%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505185%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505120%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505120%
+  action = setbuttonlabel
+  value = Select Island
+}
+
+customization {
+  identifier = %id=345100%
+  orientation = element
+  orientation_element = vanillabtn:345151
+  x = 0
+  action = movebutton
+  y = -51
+}
+
+customization {
+  identifier = %id=345100%
+  seconds = 0.4
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=505100%
+  orientation = element
+  orientation_element = vanillabtn:345151
+  x = 165
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=505100%
+  seconds = 0.8
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=3451001%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=5051001%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505151%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=50510011%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=90010%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=3451851%
+  action = hidebutton
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  delayappearanceseconds = 0.6
+  buttonaction = mimicbutton
+  label = Select Island
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.0
+  orientation_element = vanillabtn:345151
+  x = 165
+  width = 150
+  actionid = aa9fef41-0764-4dc5-bccb-63adbb0f23901662287514629
+  action = addbutton
+  y = -51
+  delayappearance = true
+  value = net.minecraft.client.gui.screens.worldselection.CreateWorldScreen:505120
+  delayappearanceeverytime = true
+  height = 20
+}
+
+customization {
+  identifier = %id=345972%
+  seconds = 0.8
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=505972%
+  seconds = 1.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=345151%
+  seconds = 0.6
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+

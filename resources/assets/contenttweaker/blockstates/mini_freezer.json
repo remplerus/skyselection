@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "contenttweaker:block/mini_freezer" },
+    "facing=south": {"model": "contenttweaker:block/mini_freezer", "y": 180 },
+    "facing=west":  {"model": "contenttweaker:block/mini_freezer", "y": 270 },
+    "facing=east":  {"model": "contenttweaker:block/mini_freezer", "y": 90 }
+  }
+}

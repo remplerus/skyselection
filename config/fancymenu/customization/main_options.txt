@@ -1,0 +1,173 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/custompics/loading.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505154%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345232%
+  orientation = element
+  orientation_element = vanillabtn:505256
+  x = -160
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=345232%
+  seconds = 0.4
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = top-centered
+  x = -155
+  action = movebutton
+  y = 45
+}
+
+customization {
+  identifier = %id=345154%
+  width = 310
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345154%
+  seconds = 0.1
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=505232%
+  orientation = top-centered
+  x = -155
+  action = movebutton
+  y = 71
+}
+
+customization {
+  identifier = %id=505232%
+  width = 310
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505232%
+  seconds = 0.1
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=345208%
+  orientation = element
+  orientation_element = vanillabtn:505256
+  x = -160
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=345208%
+  seconds = 1.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=345256%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505208%
+  orientation = element
+  orientation_element = vanillabtn:505256
+  x = 0
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=505208%
+  seconds = 0.4
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=345280%
+  seconds = 1.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=505280%
+  seconds = 1.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400334%
+  seconds = 1.4
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=635154%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505256%
+  seconds = 1.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+

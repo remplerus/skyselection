@@ -1,0 +1,66 @@
+{
+	id: "571865A73A72B72E"
+	group: "17F1122964EB09FF"
+	order_index: 0
+	filename: "beginning_2"
+	title: "Beginning 2"
+	icon: "agricraft:crop_sticks_wood"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"You know AgriCraft from 1.12 or 1.7? This AgriCraft isn't like those."
+				""
+				"Agricraft had some interesting changes. I like some changes, but other changes I disliked, so I removed them to have a not so hard start in 1.18's Agricraft."
+			]
+			dependencies: ["57CB57E93E00F669"]
+			hide: true
+			id: "12DA40A615AB46FB"
+			tasks: [{
+				id: "55625C623B31EB4F"
+				type: "checkmark"
+				title: "Agricraft"
+			}]
+		}
+		{
+			title: "Dirty Sticks"
+			icon: "contenttweaker:dirty_crop_sticks"
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["12DA40A615AB46FB"]
+			hide: true
+			id: "5624C837998929B4"
+			tasks: [
+				{
+					id: "5D031C30840EB237"
+					type: "item"
+					item: "contenttweaker:dirt_stick"
+					count: 4L
+				}
+				{
+					id: "245913DE52A58740"
+					type: "item"
+					item: "contenttweaker:dirty_crop_sticks"
+				}
+			]
+		}
+		{
+			icon: "agricraft:crop_sticks_wood"
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["5624C837998929B4"]
+			hide: true
+			hide_text_until_complete: true
+			id: "4BF7D3F9483AB1FE"
+			tasks: [{
+				id: "6B58D496E6F8E2E2"
+				type: "item"
+				item: "agricraft:crop_sticks_wood"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

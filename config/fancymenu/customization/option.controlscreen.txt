@@ -1,0 +1,74 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.controls.ControlsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/custompics/loading.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400226%
+  seconds = 1.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=505154%
+  seconds = 0.3
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=345154%
+  seconds = 0.3
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=345202%
+  seconds = 0.7
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=505178%
+  seconds = 0.5
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=345178%
+  seconds = 0.5
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+

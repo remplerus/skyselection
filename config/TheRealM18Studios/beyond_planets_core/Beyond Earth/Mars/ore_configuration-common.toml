@@ -1,0 +1,80 @@
+
+["Beyond Planets Core - Mars Ore Config"]
+
+	["Beyond Planets Core - Mars Ore Config"."Beyond Planets Core - Mars Copper Ore Config"]
+		#Should Mars Copper Ore Height Top.
+		#Default = 32 (number)
+		"Mars Copper Ore Height Top" = 32
+		#Should Mars Copper Ore Height Bottom.
+		#Default = -32 (number)
+		"Mars Copper Ore Height Bottom" = -32
+		#Should Mars Copper Ore Vein Size.
+		#Default = 8 (number)
+		"Mars Copper Ore Vein Size" = 8
+
+	["Beyond Planets Core - Mars Ore Config"."Beyond Planets Core - Mars Lead Ore Config"]
+		#Should Mars Lead Height Top.
+		#Default = 56 (number)
+		"Mars Lead Ore Height Top" = 56
+		#Should Mars Lead Height Bottom.
+		#Default = -34 (number)
+		"Mars Lead Ore Height Bottom" = -24
+		#Should Mars Lead Ore Vein Size.
+		#Default = 8 (number)
+		"Mars Lead Ore Vein Size" = 10
+
+	["Beyond Planets Core - Mars Ore Config"."Beyond Planets Core - Mars Tin Ore Config"]
+		#Should Mars Tin Height Top.
+		#Default = 80 (number)
+		"Mars Tin Ore Height Top" = 80
+		#Should Mars Tin Ore Height Bottom.
+		#Default = -80 (number)
+		"Mars Tin Ore Height Bottom" = -80
+		#Should Mars Tin Ore Vein Size.
+		#Default = 8 (number)
+		"Mars Tin Ore Vein Size" = 7
+
+	["Beyond Planets Core - Mars Ore Config"."Beyond Planets Core - Mars Uranium Ore Config"]
+		#Should Mars Uranium Height Top.
+		#Default = 80 (number)
+		"Mars Uranium Ore Height Top" = 80
+		#Should Mars Uranium Ore Height Bottom.
+		#Default = -80 (number)
+		"Mars Uranium Ore Height Bottom" = -80
+		#Should Mars Uranium Ore Vein Size.
+		#Default = 8 (number)
+		"Mars Uranium Ore Vein Size" = 6
+
+	["Beyond Planets Core - Mars Ore Config"."Beyond Planets Core - Mars Zinc Ore Config"]
+		#Should Mars Zinc Ore spawn.
+		#Default = 80 (number)
+		"Mars Zinc Ore Height Top" = 80
+		#Should Mars Zinc Ore Height Bottom.
+		#Default = -80 (number)
+		"Mars Zinc Ore Height Bottom" = -80
+		#Should Mars Zinc Ore Vein Size.
+		#Default = 8 (number)
+		"Mars Zinc Ore Vein Size" = 6
+
+	["Beyond Planets Core - Mars Ore Config"."Beyond Planets Core - Mars Cobalt Ore Config"]
+		#Should Mars Cobalt Ore spawn.
+		#Default = 80 (number)
+		"Mars Cobalt Ore Height Top" = 80
+		#Should Mars Cobalt Ore Height Bottom.
+		#Default = -80 (number)
+		"Mars Cobalt Ore Height Bottom" = -80
+		#Should Mars Cobalt Ore Vein Size.
+		#Default = 8 (number)
+		"Mars Cobalt Ore Vein Size" = 6
+
+	["Beyond Planets Core - Mars Ore Config"."Beyond Planets Core - Mars Coal Ore Config"]
+		#Should Mars Coal Ore spawn.
+		#Default = 80 (number)
+		"Mars Coal Ore Height Top" = 80
+		#Should Mars Coal Ore Height Bottom.
+		#Default = -80 (number)
+		"Mars Coal Ore Height Bottom" = -80
+		#Should Mars Coal Ore Vein Size.
+		#Default = 8 (number)
+		"Mars Coal Ore Vein Size" = 6
+

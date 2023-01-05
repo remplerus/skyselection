@@ -1,0 +1,234 @@
+{
+	id: "090AFBE0183C0963"
+	group: "2A0D61256D01A9D0"
+	order_index: 0
+	filename: "beginning_6"
+	title: "Beginning 6"
+	icon: "contenttweaker:stone_bowl_full"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -1.0d
+			description: [
+				"You've seen yourself on an island with just a infinite water block and a stone bowl."
+				""
+				"The only thing you have to do now, is just to get some water in your bowl and \"sift\"."
+				""
+				"Right click the infinite water block with your bowl in your main hand, then right click it again to get some loot."
+			]
+			hide_dependency_lines: true
+			dependencies: ["23D84A377E469982"]
+			hide: true
+			id: "6FEED1615DB00786"
+			tasks: [{
+				id: "12BB4A828A17DE3F"
+				type: "checkmark"
+				title: "Beginning of Treasures"
+			}]
+		}
+		{
+			title: "Another Source"
+			icon: "exnihilosequentia:stone_pebble"
+			x: -2.5d
+			y: 1.0d
+			description: [
+				"Next we will need a new form of infinite source."
+				""
+				"The new source will be an infinite lava stone."
+				""
+				"But to get there, we will need some cobblestone and a stick."
+			]
+			dependencies: ["6FEED1615DB00786"]
+			hide: true
+			id: "4EEBA3FEF01FF1A8"
+			tasks: [
+				{
+					id: "481584592A4346C5"
+					type: "item"
+					item: "exnihilosequentia:stone_pebble"
+					count: 32L
+				}
+				{
+					id: "436CCF1EF341BAEE"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 8L
+				}
+				{
+					id: "06D55AA1B7D4C661"
+					type: "item"
+					item: "minecraft:stick"
+				}
+			]
+		}
+		{
+			title: "A Lava Source"
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["4EEBA3FEF01FF1A8"]
+			hide: true
+			id: "4E568BA4F4855568"
+			tasks: [{
+				id: "550FB8A4DCE9D127"
+				type: "item"
+				item: "contenttweaker:finite_lava_cobble"
+			}]
+		}
+		{
+			title: "The Workbench"
+			icon: "cyclic:workbench"
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["4EEBA3FEF01FF1A8"]
+			hide: true
+			id: "12B464781832756B"
+			tasks: [
+				{
+					id: "44F213DC34E92746"
+					type: "item"
+					item: "cyclic:workbench"
+				}
+				{
+					id: "2ABDC8C1B0D10990"
+					type: "item"
+					item: "exnihilosequentia:stone_pebble"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Lava sifting"
+			icon: "contenttweaker:nether_bowl"
+			x: 1.5d
+			y: 1.0d
+			description: [
+				"Now that you can craft Lava Cobble, you have the ability to create some netherrack."
+				""
+				"Just right click with the lava cobble to get some netherrack."
+			]
+			dependencies: ["4E568BA4F4855568"]
+			id: "4565EE787DFF41FB"
+			tasks: [
+				{
+					id: "42D9157DB4000279"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 2L
+				}
+				{
+					id: "7E6E6DDFC3455A67"
+					type: "item"
+					item: "contenttweaker:nether_bowl"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			description: ["If you need more space, you can craft some cobblestone together to get a cobblestone chest. (use JEI if you don't find it yourself)"]
+			dependencies: ["4EEBA3FEF01FF1A8"]
+			hide: true
+			optional: true
+			id: "7F854249365B9A06"
+			tasks: [{
+				id: "5C1ECDE05A36C22B"
+				type: "item"
+				item: "stonechest:chest_cobblestone"
+			}]
+		}
+		{
+			title: "A Void Source"
+			x: 3.5d
+			y: 1.0d
+			description: ["You can get Void Cobble as fast as lava cobble, you just need to get some Obsidian, some Infinite Lava Cobble and some cobblestone."]
+			dependencies: [
+				"4565EE787DFF41FB"
+				"479749761FE53982"
+			]
+			hide: true
+			id: "5A749515AAAAF093"
+			tasks: [{
+				id: "7C12E6E46F4C68C2"
+				type: "item"
+				item: "contenttweaker:finite_void_cobble"
+			}]
+		}
+		{
+			title: "Obsidian"
+			icon: "minecraft:obsidian"
+			x: 1.5d
+			y: 2.5d
+			description: [
+				"Obsidian is pretty easy to get. You just need to place a dripper 1 block above ground and place a Lava Cobble below it."
+				""
+				"You can get some cobblestone way faster with this method too. Check JEI on what you can get other materials too."
+			]
+			dependencies: ["4E568BA4F4855568"]
+			hide: true
+			id: "479749761FE53982"
+			tasks: [
+				{
+					id: "053AF5ED2E63DC2D"
+					type: "item"
+					item: "ftbdripper:dripper"
+				}
+				{
+					id: "5606E949D39F430B"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+			]
+		}
+		{
+			title: "Void Sifting"
+			icon: "contenttweaker:endstone_bowl"
+			x: 5.5d
+			y: 1.0d
+			description: ["To get endstone, you need to rightclick Void Cobble on an Infinite Lava Cobble."]
+			dependencies: ["5A749515AAAAF093"]
+			hide: true
+			id: "7DA73D62F741BE9E"
+			tasks: [
+				{
+					id: "419E90A7669BB1FC"
+					type: "item"
+					item: "minecraft:end_stone"
+				}
+				{
+					id: "1291EA1A2E99B46B"
+					type: "item"
+					item: "contenttweaker:endstone_bowl"
+				}
+			]
+		}
+		{
+			title: "Your first Sapling"
+			icon: "minecraft:oak_sapling"
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["7DA73D62F741BE9E"]
+			hide: true
+			id: "7FF18711BA75DFC4"
+			tasks: [{
+				id: "3AAFC0DA8370B2A7"
+				type: "item"
+				title: "Any #minecraft:saplings"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+			rewards: [{
+				id: "77ED4B73BA78C7B2"
+				type: "item"
+				item: "contenttweaker:unlock_normal"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

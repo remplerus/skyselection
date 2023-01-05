@@ -1,0 +1,116 @@
+{
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "direction": "south"
+  // }
+  "spawn": null,
+  
+  "spawns": {
+    "normal": [
+      [ 3, 3, 2 ]
+    ],
+    "simple": [
+      [ 2, 6, 2 ]
+    ],
+    "chickens": [
+      [ 3, 3, 2 ]
+    ],
+    "chemistry": [
+      [ 3, 3, 2 ]
+    ],
+    "agri": [
+      [ 3, 3, 2 ]
+    ],
+    "compact": [
+      [ 2, 3, 2 ]
+    ],
+    "treasure": [
+      [ 3, 3, 2 ]
+    ],
+    "sandy": [
+      [ 2, 3, 2 ]
+    ],
+    "snowy": [
+      [ 2, 3, 2 ]
+    ]
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "Skyblock Island",
+      "desc": "This is the normal skyblock island",
+      "file": "skyblock_island.nbt",
+      "spawns": "normal",
+      "direction": "south"
+    },
+    {
+      "name": "Simple Skyblock Island",
+      "desc": "This is the 'Just a Tree' Island",
+      "file": "simple_skyblock_island.nbt",
+      "spawns": "simple",
+      "direction": "south"
+    },
+    {
+      "name": "Chicken Island",
+      "desc": "You have to start with Chickens instead of a tree",
+      "file": "chicken_island.nbt",
+      "spawns": "chickens",
+      "direction": "south"
+    },
+    {
+      "name": "Chemistry Island",
+      "desc": "No life without chemistry",
+      "file": "chemistry_island.nbt",
+      "spawns": "chemistry",
+      "direction": "south"
+    },
+    {
+      "name": "Agri Island",
+      "desc": "Can you get to the end just with agriculture?",
+      "file": "agricraft_island.nbt",
+      "spawns": "agri",
+      "direction": "south"
+    },
+    {
+      "name": "Compact Island",
+      "desc": "Did you like 'Compact Claustrophobia'? Then this might be something for you",
+      "file": "compact_island.nbt",
+      "spawns": "compact",
+      "direction": "south"
+    },
+    {
+      "name": "Treasure Island",
+      "desc": "Instead of chests you have a new type of treasure",
+      "file": "treasure_island.nbt",
+      "spawns": "treasure",
+      "direction": "south"
+    },
+    {
+      "name": "Sandy Island",
+      "desc": "If you like sand, you'll like this island",
+      "file": "sandy_island.nbt",
+      "spawns": "sandy",
+      "direction": "east"
+    },
+    {
+      "name": "Snowy Island",
+      "desc": "If you like snow, you'll like this island",
+      "file": "snowy_island.nbt",
+      "spawns": "snowy",
+      "direction": "east"
+    },
+    {
+      "name": "more coming soon...",
+      "desc": "",
+      "file": "skyblock_island.nbt",
+      "spawns": "normal",
+      "direction": "south"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+
+["Beyond Planets Core - Glacio Ore Config"]
+
+	["Beyond Planets Core - Glacio Ore Config"."Beyond Planets Core - Glacio Lead Ore Config"]
+		#Should Glacio Lead Height Top.
+		#Default = 56 (number)
+		"Glacio Lead Ore Height Top" = 56
+		#Should Glacio Lead Height Bottom.
+		#Default = -34 (number)
+		"Glacio Lead Ore Height Bottom" = -24
+		#Should Glacio Lead Ore Vein Size.
+		#Default = 8 (number)
+		"Glacio Lead Ore Vein Size" = 10
+
+	["Beyond Planets Core - Glacio Ore Config"."Beyond Planets Core - Glacio Tin Ore Config"]
+		#Should Glacio Tin Height Top.
+		#Default = 80 (number)
+		"Glacio Tin Ore Height Top" = 80
+		#Should Glacio Tin Ore Height Bottom.
+		#Default = -80 (number)
+		"Glacio Tin Ore Height Bottom" = -80
+		#Should Glacio Tin Ore Vein Size.
+		#Default = 8 (number)
+		"Glacio Tin Ore Vein Size" = 7
+
+	["Beyond Planets Core - Glacio Ore Config"."Beyond Planets Core - Glacio Uranium Ore Config"]
+		#Should Glacio Uranium Height Top.
+		#Default = 80 (number)
+		"Glacio Uranium Ore Height Top" = 80
+		#Should Glacio Uranium Ore Height Bottom.
+		#Default = -80 (number)
+		"Glacio Uranium Ore Height Bottom" = -80
+		#Should Glacio Uranium Ore Vein Size.
+		#Default = 8 (number)
+		"Glacio Uranium Ore Vein Size" = 6
+
+	["Beyond Planets Core - Glacio Ore Config"."Beyond Planets Core - Glacio Zinc Ore Config"]
+		#Should Glacio Zinc Ore spawn.
+		#Default = 80 (number)
+		"Glacio Zinc Ore Height Top" = 80
+		#Should Glacio Zinc Ore Height Bottom.
+		#Default = -80 (number)
+		"Glacio Zinc Ore Height Bottom" = -80
+		#Should Glacio Zinc Ore Vein Size.
+		#Default = 8 (number)
+		"Glacio Zinc Ore Vein Size" = 6
+
+	["Beyond Planets Core - Glacio Ore Config"."Beyond Planets Core - Glacio Cobalt Ore Config"]
+		#Should Glacio Cobalt Ore spawn.
+		#Default = 80 (number)
+		"Glacio Cobalt Ore Height Top" = 80
+		#Should Glacio Cobalt Ore Height Bottom.
+		#Default = -80 (number)
+		"Glacio Cobalt Ore Height Bottom" = -80
+		#Should Glacio Cobalt Ore Vein Size.
+		#Default = 8 (number)
+		"Glacio Cobalt Ore Vein Size" = 6
+

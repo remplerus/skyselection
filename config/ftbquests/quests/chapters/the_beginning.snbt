@@ -1,0 +1,297 @@
+{
+	id: "69E195DD76907A88"
+	group: ""
+	order_index: 0
+	filename: "the_beginning"
+	title: "The Beginning"
+	icon: "contenttweaker:unlock_normal"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -0.5d
+			description: [
+				"Welcome to SkySelection!"
+				""
+				"This modpack is based on different beginning islands. You can choose between 7 different island shapes + 6 different starts."
+				""
+				"To start with you first island, you need to type this in chat:"
+				""
+				"               &2/skyblock gui"
+			]
+			id: "521639E4609F50D2"
+			tasks: [{
+				id: "76A5A7B77B6C107F"
+				type: "checkmark"
+				title: "Choose wisely"
+			}]
+			rewards: [
+				{
+					id: "6220ABD096410A73"
+					type: "xp"
+					xp: 1
+				}
+				{
+					id: "2458DA399210D05D"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					ignore_reward_blocking: true
+					command: "/gamestage add @p openchest"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "The Normal Island"
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["521639E4609F50D2"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			incompatible: [
+				"3BEE917A9BDD0E64"
+				"1C6B5F39BBBE5FE9"
+				"57CB57E93E00F669"
+				"3CC78BCD56138836"
+				"23D84A377E469982"
+				"3D735326E1A975DF"
+				"333B698BCCDF4A6B"
+			]
+			id: "2AF7F554DB5A9454"
+			tasks: [{
+				id: "09929422B3E71C78"
+				type: "item"
+				icon: "minecraft:oak_log"
+				item: "minecraft:oak_log"
+			}]
+			rewards: [{
+				id: "08EB1D9D1E6E38BD"
+				type: "item"
+				item: "contenttweaker:unlock_normal"
+			}]
+		}
+		{
+			title: "The Chicken Island"
+			x: -4.0d
+			y: -3.0d
+			dependencies: ["521639E4609F50D2"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			incompatible: [
+				"2AF7F554DB5A9454"
+				"1C6B5F39BBBE5FE9"
+				"57CB57E93E00F669"
+				"3CC78BCD56138836"
+				"23D84A377E469982"
+				"3D735326E1A975DF"
+				"333B698BCCDF4A6B"
+			]
+			id: "3BEE917A9BDD0E64"
+			tasks: [{
+				id: "0C5D49F474C61D9B"
+				type: "item"
+				item: "minecraft:egg"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0A7AD947EE5894D7"
+				type: "item"
+				item: "contenttweaker:unlock_chickens"
+			}]
+		}
+		{
+			title: "The Compact Island"
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["521639E4609F50D2"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			incompatible: [
+				"3BEE917A9BDD0E64"
+				"2AF7F554DB5A9454"
+				"57CB57E93E00F669"
+				"3CC78BCD56138836"
+				"23D84A377E469982"
+				"3D735326E1A975DF"
+				"333B698BCCDF4A6B"
+			]
+			id: "1C6B5F39BBBE5FE9"
+			tasks: [{
+				id: "152DAE3415308D16"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+			rewards: [
+				{
+					id: "1EC0B9B8D935DED1"
+					type: "item"
+					item: "contenttweaker:unlock_compact"
+				}
+				{
+					id: "64C5ACFA271215DE"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+			]
+		}
+		{
+			title: "The Chemical Island"
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["521639E4609F50D2"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			incompatible: [
+				"2AF7F554DB5A9454"
+				"1C6B5F39BBBE5FE9"
+				"3BEE917A9BDD0E64"
+				"57CB57E93E00F669"
+				"23D84A377E469982"
+				"3D735326E1A975DF"
+				"333B698BCCDF4A6B"
+			]
+			id: "3CC78BCD56138836"
+			tasks: [
+				{
+					id: "3BF9221C285D9D4C"
+					type: "item"
+					item: "alchemistry:combiner"
+				}
+				{
+					id: "22232CED1F2C2B89"
+					type: "item"
+					item: "alchemistry:dissolver"
+				}
+			]
+			rewards: [{
+				id: "220E9751958EDA11"
+				type: "item"
+				item: "contenttweaker:unlock_chemistry"
+			}]
+		}
+		{
+			title: "The Agri Island"
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["521639E4609F50D2"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			incompatible: [
+				"2AF7F554DB5A9454"
+				"1C6B5F39BBBE5FE9"
+				"3BEE917A9BDD0E64"
+				"3CC78BCD56138836"
+				"23D84A377E469982"
+				"3D735326E1A975DF"
+				"333B698BCCDF4A6B"
+			]
+			id: "57CB57E93E00F669"
+			tasks: [{
+				id: "3AB9117EF45A4E12"
+				type: "item"
+				item: {
+					id: "agricraft:agri_journal"
+					Count: 1b
+					ForgeCaps: {
+						"agricraft:agri_journal": {
+							agri_entries: [ ]
+							agri_index: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "324F7B98FC6DA25A"
+				type: "item"
+				item: "contenttweaker:unlock_agricraft"
+			}]
+		}
+		{
+			title: "The Treasure Island"
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["521639E4609F50D2"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			incompatible: [
+				"2AF7F554DB5A9454"
+				"1C6B5F39BBBE5FE9"
+				"3BEE917A9BDD0E64"
+				"3CC78BCD56138836"
+				"57CB57E93E00F669"
+				"3D735326E1A975DF"
+				"333B698BCCDF4A6B"
+			]
+			id: "23D84A377E469982"
+			tasks: [{
+				id: "0A51254CC9DF7539"
+				type: "item"
+				item: "contenttweaker:stone_bowl"
+			}]
+			rewards: [{
+				id: "065D57541FE86109"
+				type: "item"
+				item: "contenttweaker:unlock_treasure"
+			}]
+		}
+		{
+			title: "The Sandy Island"
+			icon: "minecraft:sand"
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["521639E4609F50D2"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			incompatible: [
+				"57CB57E93E00F669"
+				"3CC78BCD56138836"
+				"3BEE917A9BDD0E64"
+				"1C6B5F39BBBE5FE9"
+				"2AF7F554DB5A9454"
+				"23D84A377E469982"
+				"333B698BCCDF4A6B"
+			]
+			id: "3D735326E1A975DF"
+			tasks: [{
+				id: "1EF194CAB4A8A2A8"
+				type: "item"
+				item: "skyseltweaks:cactus_needle"
+			}]
+		}
+		{
+			title: "The Snowy Island"
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["521639E4609F50D2"]
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			incompatible: [
+				"57CB57E93E00F669"
+				"3CC78BCD56138836"
+				"3BEE917A9BDD0E64"
+				"1C6B5F39BBBE5FE9"
+				"2AF7F554DB5A9454"
+				"3D735326E1A975DF"
+				"23D84A377E469982"
+			]
+			id: "333B698BCCDF4A6B"
+			tasks: [{
+				id: "304DF079D3042B00"
+				type: "item"
+				item: "minecraft:snowball"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

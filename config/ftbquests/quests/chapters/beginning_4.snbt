@@ -1,0 +1,227 @@
+{
+	id: "26AD8D9BECB5D6DD"
+	group: "5EF343B7B3971B1A"
+	order_index: 0
+	filename: "beginning_4"
+	title: "Beginning 4"
+	icon: {
+		id: "chickens:chicken_item"
+		Count: 1b
+		tag: {
+			ChickenType: {
+				id: "chickens:smart_chicken"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Chickens Stage"
+			x: -1.0d
+			y: 0.0d
+			description: [""]
+			dependencies: ["3BEE917A9BDD0E64"]
+			hide: true
+			id: "024E8023BB439D1D"
+			tasks: [{
+				id: "5EADFB1CE3CD9518"
+				type: "item"
+				item: "minecraft:egg"
+				count: 16L
+			}]
+			rewards: [{
+				id: "508B3E5EA5277016"
+				type: "item"
+				item: "chickens:catcher"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["024E8023BB439D1D"]
+			hide: true
+			id: "0CA93F6FD3360BAD"
+			tasks: [{
+				id: "0D3A662DD1F5C35D"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:white_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["0CA93F6FD3360BAD"]
+			hide: true
+			hide_text_until_complete: true
+			id: "4E9358AEE6F7CA3B"
+			tasks: [{
+				id: "2C9F8F90520EE6E8"
+				type: "item"
+				item: "minecraft:poppy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["0CA93F6FD3360BAD"]
+			hide: true
+			hide_text_until_complete: true
+			id: "1DE798CF1E45A855"
+			tasks: [{
+				id: "46EA2D477223B355"
+				type: "item"
+				item: "minecraft:dandelion"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["1DE798CF1E45A855"]
+			hide: true
+			hide_text_until_complete: true
+			id: "005F4C38D321CF46"
+			tasks: [{
+				id: "2D5D8606D2A7B60E"
+				type: "item"
+				item: {
+					id: "chickens:colored_egg"
+					Count: 1b
+					tag: {
+						colourid: 4
+						id: "chickens:yellow_chicken"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["4E9358AEE6F7CA3B"]
+			hide: true
+			hide_text_until_complete: true
+			id: "73A646E245E799F8"
+			tasks: [{
+				id: "74B867468FC555E6"
+				type: "item"
+				item: {
+					id: "chickens:colored_egg"
+					Count: 1b
+					tag: {
+						colourid: 14
+						id: "chickens:red_chicken"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["005F4C38D321CF46"]
+			hide: true
+			hide_text_until_complete: true
+			id: "2379D7B21A99F24C"
+			tasks: [{
+				id: "5BA9AB9025A86810"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:yellow_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["73A646E245E799F8"]
+			hide: true
+			hide_text_until_complete: true
+			id: "7A240211406E7C25"
+			tasks: [{
+				id: "1D18A110368B6ACE"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:red_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: [
+				"2379D7B21A99F24C"
+				"7A240211406E7C25"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "2857332715D8AEB3"
+			tasks: [{
+				id: "2FF65FEEA44FD23D"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:orange_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["2857332715D8AEB3"]
+			hide: true
+			hide_text_until_complete: true
+			id: "059B76F1F9F0F015"
+			tasks: [{
+				id: "281942F2DBF8B116"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:log_chicken"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["059B76F1F9F0F015"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3503B82FABC32871"
+			tasks: [{
+				id: "4BFA4DB5483DC0F9"
+				type: "checkmark"
+				title: "Congrats"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

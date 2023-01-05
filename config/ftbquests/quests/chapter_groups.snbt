@@ -1,0 +1,14 @@
+{
+	chapter_groups: [
+		{ id: "532A4660DB96F160", title: "Skyblock" }
+		{ id: "17F1122964EB09FF", title: "Agricraft" }
+		{ id: "6386FCA24A1674DE", title: "Chemistry" }
+		{ id: "5EF343B7B3971B1A", title: "Chickens" }
+		{ id: "2462963FBE3F5995", title: "Compacting" }
+		{ id: "2A0D61256D01A9D0", title: "Treasures" }
+		{ id: "355A7E4B31DAED03", title: "Sandy" }
+		{ id: "52E4E14123BEBA38", title: "Snowy" }
+		{ id: "4124C594E974B68F", title: "End Game" }
+		{ id: "5D94B942144CE9CC", title: "Project E" }
+	]
+}

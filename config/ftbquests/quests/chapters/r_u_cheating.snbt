@@ -1,0 +1,11 @@
+{
+	id: "0F78CBB54626CFF6"
+	group: "5D94B942144CE9CC"
+	order_index: 0
+	filename: "r_u_cheating"
+	title: "R U CHEATING?"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

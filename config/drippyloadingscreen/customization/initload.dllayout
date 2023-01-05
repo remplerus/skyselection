@@ -1,0 +1,39 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = config/fancymenu/custompics/loading.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = top-centered
+  x = 0
+  action = editlogo
+  y = 20
+}
+
+customization {
+  visible = false
+  x = 20
+  action = editprogressbar
+  y = -102
+  barcolor = 
+}
+
+customization {
+  orientation = bottom-left
+  x = 0
+  width = %guiwidth%
+  actionid = 173c3e37-fd10-421f-b509-a1b078b64a921662201802909
+  y = -61
+  action = addcustomprogressbar
+  height = 21
+  direction = right
+  barcolor = #ffffe0
+  backgroundcolor = #c55cc59a
+}
+

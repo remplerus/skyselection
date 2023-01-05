@@ -1,0 +1,17 @@
+
+[moofluids]
+	#If enabled the game will spawn cows with fluids that don't have a bucket version.
+	#If this is enabled, you need to have custom_buckets enabled to get the fluids in bucket form.
+	spawn_cows_with_bucketless_fluids = true
+	#Generates bucket for fluids that don't have one. This may cause issues, if so disable this option.
+	custom_buckets = true
+	#Spawn Min Count - The lowest number of cows that should spawn.
+	#Range: > 1
+	spawn_min_count = 1
+	#Spawn Max Count - The max number of cows that should spawn.
+	#Range: > 1
+	spawn_max_count = 1
+	#Spawn Weight - Change of spawning.
+	#Range: > 1
+	spawn_weight = 2
+

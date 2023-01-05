@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,r": { "model": "contenttweaker:iron_freezer" },
+	"facing=north,r": { "model": "contenttweaker:iron_freezer" },
+    "facing=east,h": { "model": "contenttweaker:iron_freezer", "y": 90},
+	"facing=east,h": { "model": "contenttweaker:iron_freezer", "y": 90 },
+    "facing=south,r": { "model": "contenttweaker:iron_freezer", "y": 180 },
+	"facing=south,r": { "model": "contenttweaker:iron_freezer", "y": 180 },
+    "facing=west,h": { "model": "contenttweaker:iron_freezer", "y": 270 },
+	"facing=west,h": { "model": "contenttweaker:iron_freezer", "y": 270 }
+  }
+}

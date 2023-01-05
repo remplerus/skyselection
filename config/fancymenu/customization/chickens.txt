@@ -1,0 +1,239 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = true
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = chickens
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = 6fd8055a-91eb-4887-a9d2-2e99782cad801662284852262
+  x = -103
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 0.4
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
+  x = -102
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 1.2
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=4936%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-centered
+  x = -10
+  action = movebutton
+  y = -66
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = §cSadge
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 1.2
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = 6fd8055a-91eb-4887-a9d2-2e99782cad801662284852262
+  x = -102
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 0.8
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=44%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 506
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = b80e6bc2-1755-4168-ba55-7e81202b5d4e1662238582888
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 5ce38f3d-730c-4b62-af99-e4ac8ecd1c301662238582893
+  y = 639
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 1051
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = eee3da2c-665e-46b9-98f9-faf4cd52e2e61662238582894
+  y = 661
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 743
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f5a4f8b5-e286-4380-9225-4ee897c8a24f1662238582894
+  y = 270
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 503
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 48f51852-e345-478c-9a05-fa4ff303a6e51662238582894
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 697fe2ae-f7ce-45bf-98c4-7de00ab2eb1f1662238582894
+  y = 0
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/custompics/skyselection.png
+  orientation = top-centered
+  x = -256
+  width = 512
+  action = addtexture
+  actionid = 81014db2-ce1b-4595-b73f-338b26ae11ab1662238811657
+  y = 0
+  height = 238
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  delayappearanceseconds = 0.8
+  buttonaction = mimicbutton
+  label = Language
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 2.0
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
+  x = -1
+  width = 98
+  actionid = 6fd8055a-91eb-4887-a9d2-2e99782cad801662284852262
+  action = addbutton
+  y = -24
+  delayappearance = true
+  value = net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_language_button
+  delayappearanceeverytime = true
+  height = 20
+}
+

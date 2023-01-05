@@ -1,0 +1,12 @@
+{
+  "defaults": {
+    "model": "cube_all",
+   "textures": {
+    "all": "contenttweaker:blocks/heavy_snow"
+  }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

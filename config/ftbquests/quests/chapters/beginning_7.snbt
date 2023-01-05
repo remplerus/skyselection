@@ -1,0 +1,168 @@
+{
+	id: "49EF2B7EA27505C5"
+	group: "355A7E4B31DAED03"
+	order_index: 0
+	filename: "beginning_7"
+	title: "Beginning 7"
+	icon: "skyseltweaks:cactus_fruit_needle"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "skyseltweaks:cactus_needle"
+			x: -1.0d
+			y: -0.5d
+			description: [""]
+			dependencies: ["3D735326E1A975DF"]
+			hide: true
+			hide_text_until_complete: true
+			id: "12726E0CB48F0AAC"
+			tasks: [{
+				id: "1CA6F224B80914BC"
+				type: "item"
+				item: "skyseltweaks:cactus_needle"
+				count: 16L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["12726E0CB48F0AAC"]
+			hide: true
+			hide_text_until_complete: true
+			id: "7CB5664BD72DCE27"
+			tasks: [{
+				id: "6C8F57736F1FE642"
+				type: "item"
+				item: {
+					id: "skyseltweaks:cactus_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["7CB5664BD72DCE27"]
+			id: "039D8809948E6731"
+			tasks: [{
+				id: "66E2CFA599BCD131"
+				type: "item"
+				item: "skyseltweaks:cactus_fruit"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: [
+				"12726E0CB48F0AAC"
+				"039D8809948E6731"
+			]
+			id: "649B353D6090177C"
+			tasks: [{
+				id: "455D8DB5B76F1F5C"
+				type: "item"
+				item: "skyseltweaks:cactus_fruit_needle"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["3D735326E1A975DF"]
+			hide: true
+			hide_text_until_complete: true
+			id: "2B5F6F3973564788"
+			tasks: [{
+				id: "4F161E336756C7BF"
+				type: "item"
+				title: "Any #forge:sandstone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sandstone"
+					}
+				}
+				count: 2L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["2B5F6F3973564788"]
+			hide: true
+			hide_text_until_complete: true
+			id: "1D831A18C712DE90"
+			tasks: [{
+				id: "23CF657E89232CA1"
+				type: "item"
+				title: "Any #skyseltweaks:infusion_stones"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "skyseltweaks:infusion_stones"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: [
+				"Get a Sapling with this setup:"
+				"Have 8 Cactus Needles in your offhand."
+				"Place a Cactus Fruit Needle."
+				"Now use your infusion stone on the fruit needle."
+				"You'll see that some of your health is gone, this can be recovered by cactus fruits."
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+			]
+			dependencies: [
+				"649B353D6090177C"
+				"1D831A18C712DE90"
+				"12726E0CB48F0AAC"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "308C1797B0319D30"
+			tasks: [{
+				id: "19BC5D6B52BDEAAC"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			description: [
+				"Place a Cactus Fruit Needle."
+				"Have 4 Cactus Fruits in your offhand."
+				"Now rightclick the fruit needle with an infusion stone."
+				"You'll see that some of your health is gone. You can recover it with cactus fruits."
+			]
+			dependencies: [
+				"1D831A18C712DE90"
+				"649B353D6090177C"
+				"039D8809948E6731"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "454740FCA2A92168"
+			tasks: [{
+				id: "373D9F757716E2D7"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

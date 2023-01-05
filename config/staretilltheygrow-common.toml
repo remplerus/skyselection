@@ -1,0 +1,40 @@
+
+#Delay and apply rate
+[timings]
+
+	[timings.timing]
+		#The delay in seconds before we start growing
+		#Range: 1 ~ 60
+		delay = 1
+		#The time in seconds between each grow application
+		#Range: 1 ~ 60
+		everyXSeconds = 1
+
+#General settings
+[general]
+
+	[general.general]
+		#If you need to hold shift (bend over) to activate your staring powers
+		shiftToActivate = false
+		#If staring at plants applies bone meal
+		applyBoneMeal = true
+		#If staring at baby animals makes them grow
+		growBabies = true
+		#If staring at sheared sheep makes their wool grow back
+		regrowWool = true
+		#If staring at a animal makes them fall in love
+		fallInLove = true
+		#If staring at cake makes it regrow pieces
+		cakeRegrowth = true
+
+#blackList or whiteList settings
+[blacklistwhitelist]
+
+	[blacklistwhitelist.blackListWhiteList]
+		#You can choose to use either a blackList or a whiteList
+		useBlackList = true
+		#Disallow blocks to be stared at
+		blackList = ["minecraft:grass_block", "minecraft:grass", "minecraft:tall_grass"]
+		#Only allow certain blocks to be stared at
+		whiteList = []
+

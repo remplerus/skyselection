@@ -1,0 +1,167 @@
+{
+	id: "7A14D5D00D936F12"
+	group: "2462963FBE3F5995"
+	order_index: 0
+	filename: "beginning_5"
+	title: "Beginning 5"
+	icon: "compactmachines:machine_tiny"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["1C6B5F39BBBE5FE9"]
+			hide: true
+			id: "5C547966571ED198"
+			tasks: [{
+				id: "60AC1A4CBBBA004B"
+				type: "dimension"
+				dimension: "compactmachines:compact_world"
+			}]
+			rewards: [
+				{
+					id: "2B23A1AB8F5B2AE3"
+					type: "item"
+					item: "bonsaitrees3:bonsaipot"
+				}
+				{
+					id: "62ECE81AD72E4DE0"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "5427402417A6FAB9"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+		}
+		{
+			title: "Void Materials"
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"Now that you have enough wood, it's time to get something else."
+				""
+				"You get resources when right clicking the solid walls with your new tool."
+			]
+			dependencies: ["5C547966571ED198"]
+			id: "39BACA5BF2020292"
+			tasks: [{
+				id: "3A400D09AFDA46CD"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["39BACA5BF2020292"]
+			hide: true
+			hide_text_until_complete: true
+			id: "602E4C1F4DA0D59C"
+			tasks: [{
+				id: "0A1C41CAD0967CD8"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["602E4C1F4DA0D59C"]
+			hide: true
+			hide_text_until_complete: true
+			id: "333942BF8236BA48"
+			tasks: [{
+				id: "7F407963CD63165B"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["333942BF8236BA48"]
+			hide: true
+			hide_text_until_complete: true
+			id: "276FA398439F1007"
+			tasks: [{
+				id: "007868A8BA245A33"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: [""]
+			dependencies: ["276FA398439F1007"]
+			hide: true
+			hide_text_until_complete: true
+			id: "003D23A3DF2F0E88"
+			tasks: [{
+				id: "355C97F26F7AE552"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["39BACA5BF2020292"]
+			hide: true
+			hide_text_until_complete: true
+			id: "0C68880468EA43CE"
+			tasks: [{
+				id: "429FA57B4A3C4222"
+				type: "checkmark"
+				title: "Congrats, you can do other things now too."
+			}]
+			rewards: [{
+				id: "637859E30C902696"
+				type: "item"
+				item: "contenttweaker:unlock_normal"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

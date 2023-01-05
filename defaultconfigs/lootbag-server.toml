@@ -1,0 +1,8 @@
+
+#General settings
+[general]
+	#Drop chance of Loot Bag
+	#Range: 0 ~ 100
+	Chance = 4
+	onlyDropByNaturalEntity = true
+
